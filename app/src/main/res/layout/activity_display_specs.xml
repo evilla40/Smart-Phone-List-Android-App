@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewSpecActivity">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/RAM"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="RAM:"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/RAM_spec"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="16dp"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        app:layout_constraintStart_toEndOf="@id/tableRow1"
+        app:layout_constraintTop_toBottomOf="@id/tableRow1">
+        <TextView
+            android:id="@+id/storagesizes"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Available Storage Sizes:"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/storagesizes_spec"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="16dp"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        app:layout_constraintStart_toEndOf="@id/tableRow2"
+        app:layout_constraintTop_toBottomOf="@id/tableRow2">
+        <TextView
+            android:id="@+id/priceforstorage"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Respective Prices:"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/priceforstorage_spec"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="16dp"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        app:layout_constraintStart_toEndOf="@id/tableRow3"
+        app:layout_constraintTop_toBottomOf="@id/tableRow3">
+        <TextView
+            android:id="@+id/pixeldensity"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Pixel Density:"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/pixeldensity_spec"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="16dp"
+            android:gravity="center"/>
+    </TableRow>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,77 @@
+<resources>
+
+    <string name="app_name">Project2evilla40</string>
+
+    <string-array name="brand_model">
+        <item>Samsung Galaxy Note9</item>
+        <item>Moto e5 Play</item>
+        <item>Google Pixel 3</item>
+        <item>Apple iPhone 8</item>
+        <item>Samsung Galaxy S8</item>
+        <item>Moto g7</item>
+    </string-array>
+
+    <string-array name="screensize_price">
+        <item>6.4 inches, $999.99</item>
+        <item>5.2 inches, $129.99</item>
+        <item>5.5 inches, $799</item>
+        <item>4.7 inches, $599</item>
+        <item>5.8 inches, $599.99</item>
+        <item>6.2 inches, $299.99</item>
+    </string-array>
+
+    <string-array name="uri_list">
+        <item>https://www.samsung.com/us/mobile/galaxy-note9</item>
+        <item>https://www.motorola.com/us/products/moto-e-play-gen-5</item>
+        <item>https://store.google.com/us/product/pixel_3</item>
+        <item>https://www.apple.com/iphone-8/specs</item>
+        <item>https://www.samsung.com/global/galaxy/galaxy-s8</item>
+        <item>https://www.motorola.com/us/products/moto-g-gen-7/</item>
+    </string-array>
+
+    <string-array name="RAM">
+        <item>6GB, 8GB</item>
+        <item>2GB</item>
+        <item>4GB</item>
+        <item>2GB</item>
+        <item>4GB</item>
+        <item>4GB</item>
+    </string-array>
+
+    <string-array name="storage_sizes">
+        <item>128GB, 512GB</item>
+        <item>16GB</item>
+        <item>64GB, 128GB</item>
+        <item>64GB, 256GB</item>
+        <item>64GB</item>
+        <item>64GB</item>
+    </string-array>
+
+    <string-array name="price_for_storage">
+        <item>$999.99, $1249.99</item>
+        <item>$129.99</item>
+        <item>$799, $899</item>
+        <item>$599, $749</item>
+        <item>$599.99</item>
+        <item>$299.99</item>
+    </string-array>
+
+    <string-array name="pixel_density">
+        <item>516 ppi</item>
+        <item>282 ppi</item>
+        <item>443 ppi</item>
+        <item>326 ppi</item>
+        <item>570 ppi</item>
+        <item>403 ppi</item>
+    </string-array>
+
+    <string-array name="manufacturer_links">
+        <item>https://www.samsung.com/us</item>
+        <item>https://www.motorola.com/us/home</item>
+        <item>https://store.google.com/us/</item>
+        <item>https://www.apple.com/iphone/</item>
+        <item>https://www.samsung.com/us/</item>
+        <item>https://www.motorola.com/us/home</item>
+    </string-array>
+
+</resources>
